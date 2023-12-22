@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+header img {
+    width: 40px;
+    padding-right: 10px;
+}
+
+form { 
+    display: block;
+    justify-content: space-between;
+    padding-left: 39%;
+}    
+
+form input{
+    display: block;
+    border-radius: 4px;
+    padding: 5px;
+    width: 35%;
+}
+
+form label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+
+button {
+    display: block;
+    width: 425px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
